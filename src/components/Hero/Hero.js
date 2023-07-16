@@ -50,6 +50,8 @@ const Hero = () => {
       });
 
     console.log("subscripto")
+    
+    alert("te logueaste con exito")
   }
 
 
