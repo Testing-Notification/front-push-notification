@@ -1,13 +1,13 @@
 import "./Hero.scss";
-import { useSelector } from "react-redux";
-import axios from "axios";
-import { useEffect } from "react";
+// import { useSelector } from "react-redux";
+// import axios from "axios";
+// import { useEffect } from "react";
 
-const PUBLIC_VAPID_KEY = "BPgbqb7lH8YqIOYcevD8XTL1Q3i7zA7qob3ymR0SyoOTts14XcrqagZbVrl9r7B10TMPjg-dFwBvygyuB6HtnMs"
+// const PUBLIC_VAPID_KEY = "BPgbqb7lH8YqIOYcevD8XTL1Q3i7zA7qob3ymR0SyoOTts14XcrqagZbVrl9r7B10TMPjg-dFwBvygyuB6HtnMs"
 
 
 const Hero = () => {
-  const state = useSelector(state => state)
+  // const state = useSelector(state => state)
 
   // const subscription = async () => {
   //   //SERVICE WORKER
@@ -49,7 +49,7 @@ const Hero = () => {
       </div>
 
       <input placeholder="Nombre de usuario" />
-      
+
       {/* <button onClick={subscription}>
         SendPost
       </button> */}
