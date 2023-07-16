@@ -33,7 +33,7 @@ const subscription = async () => {
         applicationServerKey: PUBLIC_VAPID_KEY
     });
 
-    await fetch('http://147.182.205.85:8082/subscription',
+    await fetch('https://d579-190-247-202-60.ngrok-free.app/subscription',
         {
             method: 'POST',
             body: JSON.stringify(subscription),
