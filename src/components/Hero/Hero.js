@@ -34,8 +34,7 @@ const Hero = () => {
           name: input_name,
           subscription: subscription,
         }
-        let respuesta = ""
-
+  
         await axios.post('https://19fc-190-247-202-60.ngrok-free.app/subscription',
           objPost
         )
